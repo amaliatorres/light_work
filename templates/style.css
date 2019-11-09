@@ -127,11 +127,11 @@ h2{
 .mission {
   display: flex;
   justify-content: center;
-  padding-bottom: 50%;
+  padding-bottom: 45%;
 }
 
 .mission .col-one {
-  width: 80%;
+  width: 98%;
 }
 
 @media (max-width: 400px) {
