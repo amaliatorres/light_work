@@ -22,13 +22,6 @@ class Landing(webapp2.RequestHandler):
         self.response.headers['Content-Type'] = 'text/html'
         self.response.write(template.render())
 
-class Login(webapp2.RequestHandler):
-    def get(self):
-        template = the_jinja_environment.get_template("/templates/sign_in.html")
-        self.response.headers['Content-Type'] = 'text/html'
-        self.response.write(template.render())
-
-
 class Search(webapp2.RequestHandler):
     def get(self):
         template = the_jinja_environment.get_template("/templates/search.html")
@@ -38,7 +31,5 @@ class Search(webapp2.RequestHandler):
 app = webapp2.WSGIApplication([
     ('/', Landing),
     ('/index', Main),
-    ('/sign_in', Login),
-    ('/search', Search),
+    ('/search', Search)
 ], debug=True)
-

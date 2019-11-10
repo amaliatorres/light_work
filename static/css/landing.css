@@ -127,6 +127,14 @@ h3{
   }
 }
 
+.nav ul {
+  list-style: none;
+  background-color: white;
+  text-align: center;
+  padding: 25px;
+  margin: 100px;
+}
+
 .login_button{
   font-size: 30px;
 }
@@ -146,6 +154,6 @@ h3{
 
 .col-one {
   background: white;
-  padding: 20px;
+  padding: 150px;
   border-radius: 20px;
 }
