@@ -24,7 +24,7 @@ h3{
   text-align: center;
   margin:30px;
   margin-left:50px;
-  font-family: 'Merriweather', serif;
+  font-family: 'Roboto', sans-serif;
   color:black;
   font-size: 33px;
 }
@@ -127,6 +127,9 @@ h3{
   }
 }
 
+.login_button{
+  font-size: 30px;
+}
 
 
 
