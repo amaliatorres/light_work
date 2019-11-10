@@ -10,9 +10,21 @@ the_jinja_environment = jinja2.Environment(
 
 jinja_current_directory = "insert jinja2 environment variable here"
 
-class Indexpage(webapp2.RequestHandler):
+class Main(webapp2.RequestHandler):
     def get(self):
         template = the_jinja_environment.get_template("/templates/index.html")
+        self.response.headers['Content-Type'] = 'text/html'
+        self.response.write(template.render())
+
+class Landing(webapp2.RequestHandler):
+    def get(self):
+        template = the_jinja_environment.get_template("/templates/landing.html")
+        self.response.headers['Content-Type'] = 'text/html'
+        self.response.write(template.render())
+
+class Login(webapp2.RequestHandler):
+    def get(self):
+        template = the_jinja_environment.get_template("/templates/sign_in.html")
         self.response.headers['Content-Type'] = 'text/html'
         self.response.write(template.render())
 
@@ -23,14 +35,10 @@ class Search(webapp2.RequestHandler):
         self.response.headers['Content-Type'] = 'text/html'
         self.response.write(template.render())
 
-class Chat(webapp2.RequestHandler):
-    def get(self):
-        template = the_jinja_environment.get_template("/templates/chat.html")
-        self.response.headers['Content-Type'] = 'text/html'
-        self.response.write(template.render())
-
 app = webapp2.WSGIApplication([
-    ('/', Indexpage),
+    ('/', Landing),
+    ('/index', Main),
+    ('/sign_in', Login),
     ('/search', Search),
-    ('/chat', Chat)
 ], debug=True)
+
