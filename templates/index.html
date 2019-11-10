@@ -5,6 +5,9 @@
     <title>Light Work</title>
     <link rel="stylesheet" href="style.css">
 
+
+    </script>
+
   </head>
   <header>
       <div class="nav">
@@ -18,25 +21,50 @@
     </header>
   <body>
 
+    <button class="btn active" id= "allbutton" onclick="filterSelection('all')"> Show all</button>
+    <ul class="flex-container">
+    <li class="flex-item"><img class="btn" onclick="filterSelection('english')" src ="logoholder.png" class = "icons"></li>
+    <li class="flex-item"><img class="btn" onclick="filterSelection('science')" src ="science.png" class = "icons"></li>
+    <li class="flex-item"><img class="btn" onclick="filterSelection('language')" src ="language.png" class = "icons"></li>
+    <li class="flex-item"><img class="btn" onclick="filterSelection('math')" src ="math.png" class = "icons"></li>
+    <li class="flex-item"><img class="btn" onclick="filterSelection('history')" src ="globe.png" class = "icons"></li>
+    <li class="flex-item"><img class="btn" onclick="filterSelection('coding')" src ="coding.png" class = "icons"></li>
+    </ul>
 
-  <ul class="flex-container">
-  <li class="flex-item"><img src ="logoholder.png" class = "icons"></li>
-  <li class="flex-item"><img src ="science.png" class = "icons"></li>
-  <li class="flex-item"><img src ="language.png" class = "icons"></li>
-  <li class="flex-item"><img src ="math.png" class = "icons"></li>
-  <li class="flex-item"><img src ="globe.png" class = "icons"></li>
-  <li class="flex-item"><img src ="coding.png" class = "icons"></li>
-  </ul>
+
+      <section id ="parent">
+       <div class="mission">
+           <div class="col-one">
+             <h2>Lightwork is a an online tutoring and homework comunity. Use this search bar to find what you need</h2>
+           </div>
+       </div>
+     </section>
 
 
-    <section id ="parent">
-     <div class="mission">
-         <div class="col-one">
-           <h2>Lightwork is a an online tutoring and homework comunity. Use this search bar to find what you need</h2>
-         </div>
-     </div>
-   </section>
 
+     <!-- FILTER -->
+
+   <body>
+
+   <h2>Filter DIV Elements</h2>
+
+   <div class="container">
+     <div class="filterDiv english">English</div>
+     <div class="filterDiv science coding">cs and coding</div>
+     <div class="filterDiv language">Language</div>
+     <div class="filterDiv english">English</div>
+     <div class="filterDiv math">Math</div>
+     <div class="filterDiv history">Blue</div>
+     <div class="filterDiv coding">Coding</div>
+     <div class="filterDiv math">Math</div>
+     <div class="filterDiv science">Melon</div>
+     <div class="filterDiv math science">math and sci</div>
+     <div class="filterDiv math">Math</div>
+     <div class="filterDiv english">English</div>
+     <div class="filterDiv language">Language</div>
+   </div>
+
+   <script src="script.js"></script>
 
   </body>
 </html>
