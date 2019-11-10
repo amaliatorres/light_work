@@ -218,9 +218,9 @@ h2{
 /* FILTER */
 .filterDiv {
   float: left;
-  background-color: #2196F3;
-  border: 20px;
-  color: #ffffff;
+  background-color: transparent;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  color: black;
   width: 320px;
   line-height: 50px;
   text-align: center;
@@ -330,7 +330,7 @@ h6{
  /* IMAGE UPLOADS */
 
 .filterDiv img {
-   height: 350px;
+   height: 375px;
    margin-top: 20px;
 
  }
