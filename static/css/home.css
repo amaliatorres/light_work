@@ -10,6 +10,14 @@ body {
   background: white;
 }
 
+h2{
+  color: black;
+  font-family: 'Century Gothic', sans-serif;
+  font-size: 22px;
+  text-align: center;
+  font-weight: 180;
+}
+
 /* NAVIGATION BAR */
 .topnav {
   background-color: black;
@@ -82,7 +90,7 @@ body {
 /* FLEXBOX */
 
 .some-page-wrapper {
-  margin: 15px;
+  margin: 10px;
   background-color: transparent;
 }
 
@@ -103,7 +111,7 @@ body {
 
 .blue-column {
   background-color: transparent;
-  height: 200px;
+  height: 150px;
 }
 
 .double-column {
