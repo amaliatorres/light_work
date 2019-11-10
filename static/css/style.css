@@ -300,3 +300,20 @@ h2{
 .containerb .btn:hover {
   background-color: black;
 }
+
+
+
+
+h6{
+  margin:30px;
+  margin-left:50px;
+  font-family: 'Source Sans Pro', sans-serif;
+  color:black;
+  font-size: 43px;
+}
+
+.landing_logo {
+  margin-top: 100px;
+  margin-left: 70px;
+  height:300px;
+}

@@ -1,0 +1,148 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: white;
+}
+
+h6{
+  margin:30px;
+  margin-left:50px;
+  font-family: 'Source Sans Pro', sans-serif;
+  color:black;
+  font-size: 43px;
+}
+
+
+h2{
+  color: black;
+  font-family: 'Century Gothic', sans-serif;
+  font-size: 22px;
+  text-align: center;
+  font-weight: 180;
+}
+h3{
+  text-align: center;
+  margin:30px;
+  margin-left:50px;
+  font-family: 'Merriweather', serif;
+  color:black;
+  font-size: 33px;
+}
+
+.btn.active {
+  background-color: #666;
+  color: white;
+}
+
+.btn {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 60%;
+  margin-left: 30%;
+}
+.btn:hover {
+  background-color: #ddd;
+}
+
+
+
+.landing_logo {
+  margin-top: 100px;
+  margin-left: 70px;
+  height:300px;
+}
+
+
+.home-utility {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.home-utility .col-one {
+  width: 40%;
+}
+
+@media (max-width: 400px) {
+  .flex-grid,
+  .home-utility {
+    display: block;
+    .col-one {
+      width: 100%;
+      margin: 0 0 10px 0;
+    }
+  }
+}
+
+.personal-travel {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.personal-travel .col-two {
+  width: 30%;
+}
+
+@media (max-width: 400px) {
+  .flex-grid,
+  .personal-travel {
+    display: block;
+    .col-one {
+      width: 100%;
+      margin: 0 0 10px 0;
+    }
+  }
+}
+
+
+
+.commuter {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 280px;
+  padding-right: 280px;
+}
+
+.commuter .col-three {
+  width: 42%;
+}
+
+@media (max-width: 400px) {
+  .flex-grid,
+  .commuter {
+    display: block;
+    .col-one {
+      width: 100%;
+      margin: 0 0 10px 0;
+    }
+  }
+}
+
+
+
+
+* {
+  box-sizing: border-box;
+}
+
+}
+.flex-grid {
+  margin: 0 0 20px 0;
+}
+
+
+
+.col-one {
+  background: white;
+  padding: 20px;
+  border-radius: 20px;
+}
