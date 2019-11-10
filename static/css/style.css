@@ -219,11 +219,12 @@ h2{
 .filterDiv {
   float: left;
   background-color: #2196F3;
+  border: 20px;
   color: #ffffff;
-  width: 300px;
+  width: 320px;
   line-height: 50px;
   text-align: center;
-  margin: 4px;
+  margin: 18px;
   display: none;
 }
 
