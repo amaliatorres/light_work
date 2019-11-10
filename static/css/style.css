@@ -220,10 +220,10 @@ h2{
   float: left;
   background-color: #2196F3;
   color: #ffffff;
-  width: 100px;
-  line-height: 100px;
+  width: 300px;
+  line-height: 50px;
   text-align: center;
-  margin: 2px;
+  margin: 4px;
   display: none;
 }
 
@@ -317,3 +317,19 @@ h6{
   margin-left: 70px;
   height:300px;
 }
+
+
+
+
+
+
+
+
+
+ /* IMAGE UPLOADS */
+
+.filterDiv img {
+   height: 350px;
+   margin-top: 20px;
+
+ }
