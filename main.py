@@ -1,6 +1,4 @@
 import webapp2
-from google.appengine.ext import ndb
-from models import Event
 import jinja2
 import os
 
